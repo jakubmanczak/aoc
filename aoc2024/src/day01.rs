@@ -2,7 +2,8 @@ use std::fs;
 
 use tracing::info;
 
-pub fn solve(input_path: &str) {
+pub fn solve() {
+    let input_path = "./input/01.txt";
     solve_part1(input_path);
     solve_part2(input_path);
 }
